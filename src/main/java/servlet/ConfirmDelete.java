@@ -43,8 +43,6 @@ public class ConfirmDelete extends HttpServlet {
 		String fDiaryId = f.form(health.getDiaryId());
 		
 		if (result) {
-			
-			
 			session.setAttribute("fDiaryId", fDiaryId);
 			forwardPass = "WEB-INF/jsp/confirmDelete.jsp";
 		
